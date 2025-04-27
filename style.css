@@ -1,5 +1,7 @@
 body {
-    background: url("midias/barn.jpg"); 
+    background: url("midias/barn.jpg") center/cover no-repeat;
+    background-attachment:scroll;
+    min-height:100vh;
     font-family:'Comic Sans MS','Comic Neue',cursive;
     text-align: center;
     margin: 0;
@@ -31,7 +33,7 @@ body {
   display:inline-block;
   padding:6px 14px;
   margin:0 4px;
-  font-family:'Comic Sans MS', cursive;
+  font-family: inherit;
   font-size:14px;
   background:#b99d81;
   border:2px solid #000;
@@ -52,7 +54,7 @@ body {
 textarea#pergunta {
     width: 90%;
     max-width: 500px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: inherit;
     font-size: 16px;
     padding: 8px;
     border: 2px solid #000;
