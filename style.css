@@ -33,7 +33,7 @@ body {
   display:inline-block;
   padding:6px 14px;
   margin:0 4px;
-  font-family: inherit;
+  font-family: 'Comic Sans MS','Comic Neue','Helvetica';
   font-size:14px;
   background:#b99d81;
   border:2px solid #000;
@@ -50,11 +50,11 @@ body {
   box-shadow:5px 5px #999;
 }
 
-/* ---- NOVO: elementos de pergunta/resultado ---- */
+/* elementos de pergunta/resultado */
 textarea#pergunta {
     width: 90%;
     max-width: 500px;
-    font-family: inherit;
+    font-family: 'Comic Sans MS','Comic Neue','Helvetica';
     font-size: 16px;
     padding: 8px;
     border: 2px solid #000;
@@ -80,15 +80,15 @@ textarea#pergunta {
   
 .pergunta-italico {
   font-style: italic;
-  color: #666;      /* tom mais clarinho – ajuste como quiser */
+  color: #666; /* tom mais clarinho – ajuste como quiser */
   margin-bottom: 12px;
 }
 
 #volume-control{
     position:fixed;
-    bottom:0;                /* cola no rodapé */
+    bottom:0;
     left:0;
-    width:100%;           /* faixa de fora a fora */
+    width:100%;
     display:flex;
     justify-content:center;
     align-items:center;  
@@ -100,6 +100,6 @@ textarea#pergunta {
   }
   
   #slider-volume{
-    margin-left:6px;      /* pequeno espaço depois do “🔊 Volume” */
+    margin-left:6px;
     vertical-align:middle;
   }
