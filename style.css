@@ -93,8 +93,8 @@ textarea#pergunta {
     justify-content:center;
     align-items:center;  
     padding:4px 0;
-  
-    font-family:'Comic Sans MS', cursive;
+    color: #efefef;
+    font-family: 'Comic Sans MS','Comic Neue','Helvetica';
     font-size:14px;
     z-index:9999;
   }
