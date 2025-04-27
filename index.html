@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" sizes="32x32" href="midias/capa_calavo.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+  <title>Cavalo da sabedoria</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="container" id="pergunta-pane">
+    <h1>Consulte o cavalo da sabedoria infinita e conhecimento geral.</h1>
+
+    <div class="fotos_plain">
+      <img src="midias/cavalo.png" alt="Cavalo pensativo" />
+    </div>
+
+    <!-- Caixa de texto + botão -->
+    <label for="pergunta" class="legenda"
+      >Escreva uma pergunta de <strong>SIM</strong> ou <strong>NÃO</strong>:</label
+    >
+    <textarea
+      id="pergunta"
+      rows="3"
+      placeholder="Ex.: Eu devo ir pra academia hoje?"
+    ></textarea>
+
+    <button class="track-btn" id="enviar-btn">Enviar para o cavalo</button>
+  </div>
+
+  <!-- Resultado (escondido no início) -->
+  <div class="container hidden" id="resposta-pane">
+    <h2 id="resposta-titulo"></h2>           <!-- Sim. / Não. -->
+    <img id="gif-resposta" class="gif" src="" alt="Resposta do cavalo" />
+  
+    <p id="frase-pergunta" class="pergunta-italico"></p>  
+    <p id="frase-confirmacao"></p>                         
+  
+    <button class="track-btn" id="consultar-novamente-btn">
+      Consultar novamente…
+    </button>
+  </div>
+
+  <div id="volume-control">
+    🔊 Volume <input type="range" id="slider-volume" min="0" max="100" value="50">
+      </div>
+
+  <audio id="musica-menu" src="midias/menu.mp3" loop></audio>
+  <audio id="musica-resposta" loop></audio>
+  <script src="script.js"></script>
+
+</body>
+</html>
